@@ -22,12 +22,16 @@ const uploadError = (response) => {
     ElMessage.success("网络出现问题！")
 }
 
+const uploadUrl = (url) => {
+    return window._BaseUrl + url;
+}
+
 </script>
 
 <template>
     <el-upload
             drag
-            action="http://localhost:10240/file/upload"
+            :action="uploadUrl('/file/upload')"
             multiple
             :on-success="uploadSuccess"
             :on-error="uploadError"
