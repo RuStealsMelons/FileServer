@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import login from '../views/login.vue'
 import index from '../views/index.vue'
-
 const routes = [
   {
     path: "/",
@@ -17,7 +16,7 @@ const routes = [
     path: "/login",
     name: "login",
     component: login,
-  },
+  }
 ];
 
 export const router = createRouter({

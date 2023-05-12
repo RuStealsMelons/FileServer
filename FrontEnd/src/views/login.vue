@@ -5,9 +5,7 @@
 
 
 <template>
-login
+    login
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
