@@ -5,6 +5,7 @@ import index from '../views/index.vue'
 import file from '../views/file.vue'
 import formatter from '../views/formatter.vue'
 import jsonFormatter from '../components/jsonFormatter.vue'
+import xmlFormatter from '../components/xmlFormatter.vue'
 // jsonFormatter
 const routes = [
   {
@@ -28,6 +29,10 @@ const routes = [
           {
             path: '/index/formatter/json',
             component: jsonFormatter,
+          },
+          {
+            path: '/index/formatter/xml',
+            component: xmlFormatter,
           }
         ]
       },

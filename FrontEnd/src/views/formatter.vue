@@ -19,7 +19,7 @@ const active = (event, path) => {
         <div class="box">
             <div class="navs">
                 <div class="nav" @click="active($event, 'json');">JSON格式化</div>
-                <div class="nav" @click="active($event)">XML格式化</div>
+                <div class="nav" @click="active($event, 'xml')">XML格式化</div>
                 <div class="nav" @click="active($event)">JSON格式化</div>
             </div>
             <div class="formatterPage">
@@ -32,7 +32,7 @@ const active = (event, path) => {
 <style scoped>
 .box {
     display: flex;
-    width: 1100px;
+    width: 1300px;
 }
 .navs{
     display: flex;
