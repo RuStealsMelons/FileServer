@@ -4,6 +4,7 @@ import App from './App.vue'
 import {router} from "./router/index.js";
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+// import "animate.css";
 import axios from "axios";
 // http://192.168.10.142/
 axios.defaults.baseURL="http://192.168.10.142:10240";

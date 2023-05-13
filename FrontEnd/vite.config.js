@@ -3,7 +3,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // base: '/file/',
   plugins: [vue()],
+  // base:'/file/',
   server: {
     https: false, // 是否开启 https
     open: false, // 是否自动在浏览器打开
