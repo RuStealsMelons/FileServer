@@ -53,7 +53,6 @@ const active = (event, path) => {
 }
 
 .nav:hover{
-    /* background-color: transparent; */
     background-color: rgba(255, 255, 255, 0.5);;
 }
 .active{

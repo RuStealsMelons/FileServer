@@ -4,7 +4,7 @@ import { ElMessage } from 'element-plus'
 import { ref, reactive, provide } from 'vue'
 import { SHA256 } from 'crypto-js';
 import axios from 'axios'
-import apiConfig from '../config/apiConfig'
+import apiConfig from '../../config/apiConfig'
 
 const emit = defineEmits(['upload'])
 const { identity, mapping } = apiConfig;

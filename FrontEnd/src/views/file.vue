@@ -1,7 +1,7 @@
 <script setup>
 import {reactive} from 'vue'
-import Upload from '../components/upload.vue'
-import LoadMess from '../components/loadMess.vue'
+import Upload from '../components/file/upload.vue'
+import LoadMess from '../components/file/loadMess.vue'
 const uploadMess = reactive({})
 
 const upload = (mess) => {
